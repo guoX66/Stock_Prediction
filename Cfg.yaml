@@ -1,0 +1,12 @@
+# 参数设置
+model: LSTM  # LSTM、Seq2Seq、CNN_LSTN
+max_epochs: 200  # 迭代数
+interval: 30  # 预测间隔
+val_rate: 0.8  # 验证集占比
+hidden_size: 128  # 隐藏层维度
+num_layers: 1  # 循环层数
+batch_size: 256 # 数据压缩量
+learn_rate: 0.001  # 学习率
+step_size: 1  # 学习率递变的步长
+gamma: 0.95  # 学习率递增系数，也即每个epoch学习率变为原来的0.95
+is_train: True  # 是否训练
