@@ -4,7 +4,13 @@
 
 ### 预测模型和方法参考子项目：[guoX66/Seq_LSTM (github.com)](https://github.com/guoX66/Seq_LSTM)
 
+### 训练过程损失（以开盘为例）：
+
+![image](https://github.com/guoX66/Stock_Prediction/blob/main/assets/model-LSTM-%E5%BC%80%E7%9B%98-loss.png)
+
 ### 预测过程图（以开盘为例）：
+
+![image](https://github.com/guoX66/Stock_Prediction/blob/main/assets/LSTM-%E5%BC%80%E7%9B%98-test.png)
 
 
 
@@ -56,3 +62,5 @@ python deal.py --file datasets/000831.xlsx --output Seq_LSTM/data/static.npz
 ```bash
 cd Seq_LSTM
 ```
+
+
