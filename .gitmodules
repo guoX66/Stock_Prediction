@@ -1,0 +1,3 @@
+[submodule "Seq_LSTM"]
+	path = Seq_LSTM
+	url = https://github.com/guoX66/Seq_LSTM.git
