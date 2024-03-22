@@ -35,7 +35,7 @@
 git clone --recurse-submodules https://github.com/guoX66/Seq_LSTM.git
 ```
 
-### 安装 python>=3.10.2，安装依赖
+### 安装 python>=3.10.2，并安装依赖
 
 ```bash
 pip install -r requirements
@@ -57,10 +57,8 @@ python deal.py --file datasets/000831.xlsx --output Seq_LSTM/data/static.npz
 
 # 3、训练与预测
 
-进入子项目,按照子项目步骤进行
+### 进入子项目,按照子项目步骤进行
 
 ```bash
 cd Seq_LSTM
 ```
-
-
